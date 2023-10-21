@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #ec1cb1;
+    color: #614c5d;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar li {
+    padding: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #d5b8b8;
+}
+
+/* Style changes when hovering over menu items */
+.navbar a:hover {
+    color: #6398c4; /* Change the color on hover */
+}
+
+/* Style changes when scrolling */
+.scrolled {
+    background-color: #ff5733; /* Change background color when scrolled */
+    transition: background-color 0.3s ease-in-out;
+}
